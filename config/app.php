@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://laravel-bbs.rch.com/'),
+    'url' => env('APP_URL', 'http://laravel-bbs.rch.com'),
 
     /*
     |--------------------------------------------------------------------------
