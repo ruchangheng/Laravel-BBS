@@ -33,3 +33,6 @@ Route::resource('users', 'UsersController', ['only' => ['show', 'update', 'edit'
 
 // Topics
 Route::resource('topics', 'TopicsController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);
+
+// category
+Route::resource('categories', 'CategoriesController', ['only' => ['show']]);
